@@ -12,3 +12,58 @@
 .grey-box-image {
     vertical-align: middle;
 }
+
+/* flex practice */
+.box1 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+.box3 {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+}
+.container-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* ---- */
+.wraper {
+    width: 1336px;
+    margin: 0 auto;
+}
+.block {
+    width: 310px;
+    height: 430px;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+.row01 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 908px;
+    align-content: space-between;
+}
